@@ -14,3 +14,14 @@ print(mean(dati$Total.Population))
 #    Zip Code, Total Males, Total Females e rinominare le colonne
 #    della matrice coi nomi Jurisdiction, MalesCount e FemalesCount, poi stamparla in console.
 
+dati2 <- dati[,c(1,4,5)]
+matrice <- data.matrix(dati2)
+colnames(matrice) <- c("Jurisdiction","MalesCount","FemalesCount")
+print(matrice)
+
+# 4) Rimuovere dalla matrice le righe in cui gli uomini sono di più delle donne
+#     e stamparla in console.
+
+matrice2 = matrice[matrice[,2] < matrice[,3],]
+print(matrice2)
+
