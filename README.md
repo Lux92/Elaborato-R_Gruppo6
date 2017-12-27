@@ -6,4 +6,5 @@ Dataset: 2010_Census_Populations_by_Zip_Code.csv
 4) Rimuovere dalla matrice le righe in cui gli uomini sono di più delle donne e stamparla in console.
 5) Estrarre un subset del dataframe contenente gli ZipCode e la popolazione totale di tutte le giurisdizioni con un numero di famiglie inferiori a 15000.
 6) Salvare sul file Output4.txt il subset ottenuto al punto precedente. 
+
 7)Estrarre un subset del dataframe contenente zip code e popolazione totale nel caso in cui l'età sia inferiore a 40 e stamparlo in console
