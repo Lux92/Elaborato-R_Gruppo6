@@ -14,8 +14,7 @@ print(mean(dati$Total.Population))
 #    Zip Code, Total Males, Total Females e rinominare le colonne
 #    della matrice coi nomi Jurisdiction, MalesCount e FemalesCount, poi stamparla in console.
 
-dati2 <- dati[,c(1,4,5)]
-matrice <- data.matrix(dati2)
+matrice <- data.matrix(frame = dati[,c(1,4,5)])
 colnames(matrice) <- c("Jurisdiction","MalesCount","FemalesCount")
 print(matrice)
 
