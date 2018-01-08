@@ -5,7 +5,7 @@ dati = read.csv("2010_Census_Populations_by_Zip_Code.csv")
 #   di ogni giurisdizione e stamparla in console.
 totpop <- sum(dati$Total.Population)
 numjur <- nrow(dati)
-avaragePop <- totpop/numjur
+averagePop <- totpop/numjur
 print(avaragePop)
 #Oppure
 print(mean(dati$Total.Population))
